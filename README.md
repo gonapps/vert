@@ -26,7 +26,7 @@ To run vert just run `vert init` with the path to the directory to install into
 You can configure which lua and luarocks version to use with with the config
 flags `--lua-version` and `--luarocks-version`
 
-    $> vert --lua-version=5.2.0
+    $> vert --lua-version=5.2.0 init .
     $> source ./bin/activate
     (vert) $> lua
     Lua 5.2.0  Copyright (C) 1994-2011 Lua.org, PUC-Rio
